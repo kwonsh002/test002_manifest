@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: my-backend-service
-  namespace: default # 네임스페이스 추가
+  namespace: back1 # 네임스페이스 추가
 spec:
   selector:
     app: my-backend

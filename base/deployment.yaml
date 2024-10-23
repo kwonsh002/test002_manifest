@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: my-backend-deployment
-  namespace: default # 여기에서 네임스페이스를 설정합니다.
+  namespace: back1 # 여기에서 네임스페이스를 설정합니다.
   labels:
     app: my-backend
 spec:
