@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: my-backend-container
-          image: registrybluejay.azurecr.io/myapp:20241023063742
+          image: registrybluejay.azurecr.io/myapp:20241023073621
           ports:
             - containerPort: 8000 # 컨테이너의 포트
           env:
